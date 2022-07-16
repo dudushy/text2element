@@ -1,2 +1,2 @@
-# [template-web](https://github.com/dudushy/template-web/)
-Template for Web projects
+# [text2element](https://github.com/dudushy/text2element)
+Dynamically create HTML elements just by typing.
