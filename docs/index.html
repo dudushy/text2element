@@ -2,12 +2,38 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>page title</title>
+        <title>text2element</title>
         <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
-        <h1>Hello World!</h1>
+        <h1><a href="https://github.com/dudushy/text2element" target="_blank">text2element</a></h1>
+        
+        <button id="buttonReset" onclick="reset()">RESET</button>
+        <div id="divCreateElement">
+            <div id="divHtmlElement">
+                <textarea id="htmlElement" placeholder="h1"></textarea>
+                <!-- <button class="buttonSave">SAVE</button> -->
+            </div>
+            
+            <!-- <div id="divStyleElement">
+                <textarea id="styleElement" placeholder="color: purple;" disabled></textarea>
+                <button class="buttonSave" disabled>SAVE</button>
+            </div> -->
+
+            <div id="divTextElement">
+                <textarea id="textElement" placeholder="Hello World!"></textarea>
+                <!-- <button class="buttonSave" disabled>SAVE</button> -->
+            </div>
+
+            <div>
+                <button id="buttonCreate" onclick="create()">CREATE</button>
+            </div>
+        </div>
+
+        <div id="divElements">
+            <!--? TEST <p class="anyElement">aaa</p> -->
+        </div>
         
         <script type="text/javascript" src="script.js"></script>
     </body>
