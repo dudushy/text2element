@@ -30,8 +30,8 @@ function reset() {
     text.value = null;
 
     const div = document.getElementById("divElements");
-    for (var child of div.children) {
-        div.removeChild(child);
+    while (div.firstChild) {
+        div.removeChild(div.firstChild);
     }
     div.style.display = "none";
 
